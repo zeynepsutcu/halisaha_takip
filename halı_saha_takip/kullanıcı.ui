@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1163</width>
+    <height>732</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/resim/resimler.qrc/images.jpg);
+background-image: url(:/images/images.jpg);
+color:rgb(255, 255, 255);
+font: 11pt &quot;Showcard Gothic&quot;;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="tblwuye_bilgileri">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>371</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image:url(:/İMAGES/Downloads/saydam.png);
+background-color: rgb(255, 255, 255);
+color: rgb(170, 255, 0);</string>
+    </property>
+    <property name="title">
+     <string>Üye Bilgileri</string>
+    </property>
+    <widget class="QWidget" name="formLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>351</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Adı</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="lneAdi"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Soyadı</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="lnesoyadi"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Takım Adı</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="lnetakim_adi"/>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Karşı Takım Adı</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="lnekarsi_takim_adi"/>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>Mail Adresi</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLineEdit" name="lnemail"/>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>Telefon Numarası</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QLineEdit" name="lnetelefon"/>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>Pozisyon Seçimi</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QComboBox" name="cmbpozisyon">
+        <property name="styleSheet">
+         <string notr="true">color:rgb(0, 255, 0)</string>
+        </property>
+        <property name="currentIndex">
+         <number>-1</number>
+        </property>
+        <item>
+         <property name="text">
+          <string>sol bek</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>stoper</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>kaleci</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>libero</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>ön libero</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>sağ bek</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>0</y>
+      <width>671</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/İMAGES/Downloads/saydam.png);
+background-color: rgb(255, 255, 255);
+color: rgb(170, 255, 0);</string>
+    </property>
+    <property name="title">
+     <string>Tarife Bilgileri</string>
+    </property>
+    <widget class="QWidget" name="formLayoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>621</width>
+       <height>381</height>
+      </rect>
+     </property>
+     <layout class="QFormLayout" name="formLayout_2">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_10">
+        <property name="text">
+         <string>iİl</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="lneil"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_16">
+        <property name="text">
+         <string>İlçe</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="lneilce"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_9">
+        <property name="text">
+         <string>Tesis </string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="lnetesis"/>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_13">
+        <property name="text">
+         <string>Saat</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="lnesaat"/>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_12">
+        <property name="text">
+         <string>Tarih</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QCalendarWidget" name="cwtarih">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 255, 0);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QPushButton" name="btnkayit">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(170, 255, 0);</string>
+        </property>
+        <property name="text">
+         <string>Kayıt Ol </string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>0</y>
+      <width>181</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Showcard Gothic&quot;;</string>
+    </property>
+    <property name="text">
+     <string>             sankı</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>440</y>
+      <width>1051</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(255, 0, 0)</string>
+    </property>
+    <property name="rowCount">
+     <number>100</number>
+    </property>
+    <property name="columnCount">
+     <number>13</number>
+    </property>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>650</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Ekle</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>650</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sil</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>650</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Güncelle</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>650</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Listele</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>650</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Çıkış</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1163</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuyard_m">
+    <property name="title">
+     <string>yardım</string>
+    </property>
+    <addaction name="actionhakk_nda"/>
+   </widget>
+   <addaction name="menuyard_m"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionhakk_nda">
+   <property name="text">
+    <string>hakkında</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resim.qrc"/>
+ </resources>
+ <connections/>
+</ui>
